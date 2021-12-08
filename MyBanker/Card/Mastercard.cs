@@ -16,6 +16,14 @@ namespace MyBanker
         /// </summary>
         public DateTime ExpireDate { get { return this.expireDate; } }
 
+        public Mastercard()
+        {
+            DateTime date = DateTime.Now;
+            this.expireDate = date.AddYears(5);
+            this.Prefix = new List<string>() { "51", "52", "53", "54", "55" };
+            CreateCardNumber();
+        }
+
         /// <summary>
         /// Checks if the date is expired.
         /// </summary>

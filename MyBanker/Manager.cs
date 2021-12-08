@@ -6,6 +6,8 @@ namespace MyBanker
 {
     class Manager
     {
-        
+        List<AcountManager> acountManagers = new List<AcountManager>();
+
+
     }
 }

@@ -16,6 +16,15 @@ namespace MyBanker
         /// </summary>
         public DateTime ExpireDate { get { return this.expireDate; } }
 
+
+        public VisaElectron()
+        {
+            DateTime date = DateTime.Now;
+            this.expireDate = date.AddYears(5);
+            this.Prefix = new List<string>() { "4026", "417500", "4508", "4844", "4913", "4917" };
+            CreateCardNumber();
+        }
+
         /// <summary>
         /// Checks if the date is expired.
         /// </summary>

@@ -38,5 +38,21 @@ namespace MyBanker
         {
 
         }
+
+        /// <summary>
+        /// Create Card number with Prefix
+        /// </summary>
+        protected virtual void CreateCardNumber()
+        {
+            string result = "";
+            Random rnd = new Random();
+            result = this.Prefix[rnd.Next(0, this.Prefix.Count)];
+
+            for (int i = 0; i < 16 - result.Length; i++)
+            {
+                result += rnd.Next(0, 10);
+            }
+            this.cardNumber = result;
+        }
     }
 }
