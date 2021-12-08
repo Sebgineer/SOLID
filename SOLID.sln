@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBanker", "MyBanker\MyBanker.csproj", "{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpJakob", "HelpJakob\HelpJakob.csproj", "{695FA726-A7B7-45A9-A159-647FB38563E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaffeMaskine", "KaffeMaskine\KaffeMaskine.csproj", "{6E614D37-ED22-4A14-B19B-E8C49B63E2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695FA726-A7B7-45A9-A159-647FB38563E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695FA726-A7B7-45A9-A159-647FB38563E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695FA726-A7B7-45A9-A159-647FB38563E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695FA726-A7B7-45A9-A159-647FB38563E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E614D37-ED22-4A14-B19B-E8C49B63E2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E614D37-ED22-4A14-B19B-E8C49B63E2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E614D37-ED22-4A14-B19B-E8C49B63E2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E614D37-ED22-4A14-B19B-E8C49B63E2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
