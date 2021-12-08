@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{8183EBDC-D6D0-4897-933C-9D5657EB3D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{8183EBDC-D6D0-4897-933C-9D5657EB3D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBanker", "MyBanker\MyBanker.csproj", "{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8183EBDC-D6D0-4897-933C-9D5657EB3D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8183EBDC-D6D0-4897-933C-9D5657EB3D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8183EBDC-D6D0-4897-933C-9D5657EB3D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB624FC-FF23-41E1-9214-8EEFBC9395DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
